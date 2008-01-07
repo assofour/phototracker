@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAddPhotos.Text" xml:space="preserve">
+    <value>选择照片</value>
+  </data>
+  <data name="btnClearLogs.Text" xml:space="preserve">
+    <value>清除全部</value>
+  </data>
+  <data name="btnClearPhotos.Text" xml:space="preserve">
+    <value>清除全部</value>
+  </data>
+  <data name="btnExit.Text" xml:space="preserve">
+    <value>退出 </value>
+  </data>
+  <data name="btnLanEnglish.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="btnLanguages.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="btnLanSChinese.Text" xml:space="preserve">
+    <value>简体中文</value>
+  </data>
+  <data name="btnMatch.Text" xml:space="preserve">
+    <value>开始匹配</value>
+  </data>
+  <data name="btnNewLog.Text" xml:space="preserve">
+    <value>选择日志文件</value>
+  </data>
+  <data name="btnSaveAll.Text" xml:space="preserve">
+    <value>全部保存</value>
+  </data>
+  <data name="btnSelectPhotoDir.Text" xml:space="preserve">
+    <value>选择照片目录</value>
+  </data>
+  <data name="chbDebug.Text" xml:space="preserve">
+    <value>打开调试模式</value>
+  </data>
+  <data name="chbOverwrite.Text" xml:space="preserve">
+    <value>覆盖原照片文件，如果此选项选中，则写入GPS信息的文件将被放置在在当前文件夹下的output目录中</value>
+  </data>
+  <data name="columnCamera.HeaderText" xml:space="preserve">
+    <value>相机型号</value>
+  </data>
+  <data name="columnEndDT.HeaderText" xml:space="preserve">
+    <value>(本地)结束记录时间</value>
+  </data>
+  <data name="columnHemisphereEW.HeaderText" xml:space="preserve">
+    <value>经度半球</value>
+  </data>
+  <data name="columnHemisphereNS.HeaderText" xml:space="preserve">
+    <value>纬度半球</value>
+  </data>
+  <data name="columnLatDecDegree.HeaderText" xml:space="preserve">
+    <value>维度</value>
+  </data>
+  <data name="columnLogFilename.HeaderText" xml:space="preserve">
+    <value>日志文件名</value>
+  </data>
+  <data name="columnLongDecDegree.HeaderText" xml:space="preserve">
+    <value>经度</value>
+  </data>
+  <data name="columnMatched.HeaderText" xml:space="preserve">
+    <value>匹配</value>
+  </data>
+  <data name="columnPhotoFilename.HeaderText" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="columnPhotoFilePath.HeaderText" xml:space="preserve">
+    <value>文件路径</value>
+  </data>
+  <data name="columnPhotoFileType.HeaderText" xml:space="preserve">
+    <value>文件类型</value>
+  </data>
+  <data name="columnStartDT.HeaderText" xml:space="preserve">
+    <value>(本地)开始记录时间</value>
+  </data>
+  <data name="columnTakenTime.HeaderText" xml:space="preserve">
+    <value>拍摄时间</value>
+  </data>
+  <data name="columnUTCEndDT.HeaderText" xml:space="preserve">
+    <value>(标准)结束记录时间</value>
+  </data>
+  <data name="columnUTCStartDT.HeaderText" xml:space="preserve">
+    <value>(标准)开始记录时间</value>
+  </data>
+  <data name="frmPhotoTracker.Text" xml:space="preserve">
+    <value>Photo Tracker 中文版</value>
+  </data>
+  <data name="lblTimOffset.Text" xml:space="preserve">
+    <value>相机时区选择</value>
+  </data>
+  <data name="ssBar.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="strLogsAdded" xml:space="preserve">
+    <value>总共{0}个日志文件被载入</value>
+  </data>
+  <data name="strMsgLoadedLogs" xml:space="preserve">
+    <value>GPS/GPX文件载入与转换完成</value>
+  </data>
+  <data name="strMsgLoadedPhotos" xml:space="preserve">
+    <value>照片文件载入与读取完成</value>
+  </data>
+  <data name="strMsgLoadingLogs" xml:space="preserve">
+    <value>正在载入和转换GPS/GPX文件</value>
+  </data>
+  <data name="strMsgLoadingPhotos" xml:space="preserve">
+    <value>正在载入照片文件，并读取基本的文件信息</value>
+  </data>
+  <data name="strMsgNoPhotoSelected" xml:space="preserve">
+    <value>选择一个包含GPS信息的照片文件</value>
+  </data>
+  <data name="strMsgProcessingPhoto" xml:space="preserve">
+    <value>正在处理照片文件 </value>
+  </data>
+  <data name="strMsgProcessingPhotosFinished" xml:space="preserve">
+    <value>照片文件处理完毕</value>
+  </data>
+  <data name="strPhotosAdded" xml:space="preserve">
+    <value>总共{0}个照片文件被载入</value>
+  </data>
+  <data name="tabBrowser.Text" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="tabLog.Text" xml:space="preserve">
+    <value>日志管理</value>
+  </data>
+  <data name="tabOption.Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="tabPhoto.Text" xml:space="preserve">
+    <value>照片管理</value>
+  </data>
+</root>
